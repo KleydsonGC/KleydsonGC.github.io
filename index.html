@@ -1,9 +1,202 @@
 <html>
 	<head>
 		<title>Dr. Kleydson</title>
-		<link rel="icon" href="images/icon.jpg" type="image/jpg">
-	</head>
-		<body>
+		<link rel="icon" href="imagens/icon.jpg" type="image/jpg">
+	
+		<style>
+			body {
+				font-family:Arial, Verdana, sans-serif;
+				background-color: #eb1f3e;
+				}
+			
+			p {}
 
-		</body>
-</html>>
+			img.align-center {
+				display: block;
+				margin: 0px auto;
+			}
+
+			.topnav {
+				position: -webkit-sticky;
+				position: sticky;
+				top: 0;
+				overflow: hidden;
+				padding: 18px;
+				color: black;
+				background-color: #f8cd61;
+				filter: opacity(100%);
+			}
+
+			.divbuttonH {
+				background-color: #f8cd61;
+				border: none;
+				display: inline-block;
+				transition-duration: 0.4;
+				border-radius: 6px;
+				text-align: center;
+				font-size: 16px;
+				color: white;
+				cursor: pointer;
+				float: left;
+			}
+
+			.buttonH {
+				background-color: #f8cd61;
+				border: none;
+				padding: 2px 15px;
+				display: inline-block;
+				transition-duration: 0.4;
+				border-radius: 6px;
+				text-align: center;
+				font-size: 16px;
+				font-weight: bold;
+				color: black;
+				cursor: pointer;
+				float: left;
+			}
+
+			.divbuttonH .buttonH:hover{
+				color: #544E4E;
+			}
+
+			.kleydson {
+				padding-right: 10px;
+				text-align: right;
+				width: 20%;
+			}
+
+			.escolas {
+				border: solid;
+				border-color: #efbf56;
+				overflow: hidden;
+				width: 20%;
+			}
+
+			.escola {
+				padding-left: 10px;
+				padding-bottom: 10px;
+			}
+
+			.pi{
+				width: 750px;
+			}
+
+			.albuns{
+				width: 150px;
+				float: left;
+			}
+
+			.coluna1{
+				float: left;
+				padding-left: 25px;
+			}
+
+			.coluna2{
+				float: right;
+				padding-right: 10px;
+				text-align: center;
+			}
+
+			.margem{ /*#efbf56 amarelo*/
+				border: solid;
+				border-color: #efbf56;
+				background-color: #dd1f2c;
+				overflow: hidden;
+				
+			}
+
+			.moldura{ /*#efbf56 amarelo*/
+				border: solid;
+				border-color: #efbf56;
+				background-color: #c52227;
+				overflow: hidden;
+				width: 148px;
+				display: block;
+				margin: 0px auto;
+			}
+
+		</style>
+
+	</head>
+
+	<body id="inicio">
+
+			
+		<div class="topnav">
+			<div class="divbuttonH">
+				<a href="#inicio"> <button class="buttonH">In&iacutecio</button> </a>
+				<a href="#sobre"><button class="buttonH">Sobre</button></a>
+				<a href="#formacao"><button class="buttonH">Forma&ccedil&atildeo</button></a>
+				<a href="#proji"><button class="buttonH">P.I.</button></a>
+				<a href="#interesses"><button class="buttonH">Interesses</button></a>
+				<a href="#"><button class="buttonH"></button></a>
+			</div>
+		</div>
+
+		<div>
+			<h1 align="center">Kleydson Gon&ccedilalves Caetano</h1>
+			<div class="moldura">
+			<img href="imagens/kleydson.png" type="image/png" alt="Kleydson" style="width: 148; height:316">
+			</div>
+			
+			<div id="sobre">
+			<h1>Sobre mim</h1>
+			<p class="kleydson">Aluno do 3º e &uacuteltimo ano do curso de Inform&aacutetica p/ Internet integrado ao Ensino M&eacutedio, do Instituto Federal do Esp&iacuterito Santo (IFES) - Campus Serra. Cariaciquense de berço, </p> 
+			</div>
+		</div>
+		
+		<div id="formacao">
+			<h1>Forma&ccedil&atildeo</h1>
+		
+			<div class="escolas">
+				<nav class="escola">
+					<h3>Ensino Fundamental 1:</h3>
+						<li>EMEF Olivino Rocha</li>
+
+					<h3>Ensino Fundamental 2:</h3>
+						<li>EEEFM São João Batista</li>
+
+					<h3>Ensino Médio:</h3>
+						<li>IFES - Campus Serra</li>
+				</nav>
+			</div>
+		</div>
+
+			<nav id="proji"><h1 align="center">Projeto Integrador</h1></nav>
+		<div class="margem">
+			<h3 align="center">Feira de Piadas</h3>
+			<p><img href="imagens/PI.jpg" type="image/jpg" style="width: 248; height:316"></p>
+			<p><b>Uma rede social de piadas, onde usuários podem postar, visualizar, compartilhar e avaliar piadas, estejam elas em texto, imagem, video ou áudio. Ainda sendo possível acessar um acervo de piadas classificadas por categorias e popularidade. Além da funcionalidade social, também existe um modo "Competição" onde usuários batalham entre si com suas piadas, ganhando aquele que tiver a maior pontuação (conseguida através de outros jogadores que atuam de fora do combate como juízes).</b></p>
+		</div>
+
+		<h1 id="interesses" align="center">Interesses</h1>
+		<div class="margem">
+			<div class="coluna2">
+				<h3>Filmes assistidos recentemente</h3>
+				<a href="https://www.imdb.com/title/tt1679538/" target="_blanc"><img src="https://m.media-amazon.com/images/M/MV5BYWUzMmQzZDQtZDU2OS00OTJlLTljOWUtYjRiNTY3YTI0ZTM4XkEyXkFqcGdeQXVyMTY2MzYyNzA@._V1_UY268_CR0,0,182,268_AL_.jpg" alt="Br%oacuteder(2010)"></a>
+				<a href="https://www.imdb.com/title/tt0335266/" target="_blanc"><img src="https://m.media-amazon.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_UX182_CR0,0,182,268_AL_.jpg" alt="Lost in Translation(2003)"></a>
+				<a href="https://www.imdb.com/title/tt7242142/" target="_blanc"><img src="https://m.media-amazon.com/images/M/MV5BNjgwYTQ4YmEtOTcwYy00NjBlLWI0ZjYtNDM0YmI1OGM0MWY0XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="Blindspotting(2018)"> </a>
+				<a href="https://www.imdb.com/title/tt0094898/" target="_blanc"><img src="https://m.media-amazon.com/images/M/MV5BNGZlNjdlZmMtYTg0MC00MmZkLWIyNDktYmNlOWYzMTkzYWQ1XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="Um Principe em NY(1980)"> </a>
+			</div>
+
+			<div class="coluna1">
+				<h3>&Aacutelbuns mais ouvidos dos &uacuteltimos dias</h3>
+				<div class="albuns">	
+					<p>
+						<a href="https://open.spotify.com/album/3WFTGIO6E3Xh4paEOBY9OU?si=zSH_O6QCRVODUgsBLLrzdw" target="_blanc"><img src="https://t2.genius.com/unsafe/561x0/https%3A%2F%2Fimages.genius.com%2Fa769512d2736d6039c4592f688f1193e.1000x1000x1.jpg" alt="808's and Heartbreak" style="width: 150px; height: 150px"></a>
+
+						<a href="https://open.spotify.com/album/5risYG7klZCSLMNxB9dZhf?si=ytklF1z4QXmIIu7UFJRoKQ" target="_blanc"><img src="https://t2.genius.com/unsafe/561x0/https%3A%2F%2Fimages.genius.com%2F122fcf2460df973eee425b2a6940dfe6.933x930x1.jpg" alt="Clube da Esquina" style="width: 150px; height: 150px"></a>
+					</p>
+				</div>
+
+				<div class="albuns">
+					<p>
+						<a href="https://open.spotify.com/album/4HcPzKyKVtcZCwJgesoZWn?si=M0dep7ZdS4WfEKgKVq2umg" target="_blanc"><img src="https://t2.genius.com/unsafe/561x0/https%3A%2F%2Fimages.genius.com%2Fa36db49f05341302633a94f9b36fc844.949x949x1.jpg" alt="Nada Como um Dia Apos o Outro Dia" style="width: 150px; height: 150px"></a>
+
+						<a href="https://open.spotify.com/album/7J9wATH6I891OTHteIWSEj?si=s-ETAxZ6QU-cVt72FxgBow" target="_blanc"><img src="https://t2.genius.com/unsafe/561x0/https%3A%2F%2Fimages.genius.com%2F7u1mvepqb4vrlvl83nlkf221r.500x500x1.jpg" alt="Racional Vol.1" style="width: 150px; height: 150px"></a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
